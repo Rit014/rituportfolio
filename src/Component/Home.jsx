@@ -18,7 +18,7 @@ const Home = () => {
                                 </p>
                             </div>
                             <div className='col py-2 mt-3'>
-                                <a href="https://www.linkedin.com/in/ritu-panchal-7a7273281/" target="_blank" style={{ marginRight: '11px' }}><LinkedInIcon style={{ color: 'black', fontSize: '28px' }} /></a>
+                                <a href="https://www.linkedin.com/in/ritu-panchal-7a7273281/" target="true" style={{ marginRight: '11px' }}><LinkedInIcon style={{ color: 'black', fontSize: '28px' }} /></a>
                                 <a href="https://github.com/Rit014" target="true" style={{ marginRight: '11px' }}><GitHubIcon style={{ color: 'black', fontSize: '28px' }} /></a>
                                 <a href="https://www.instagram.com/rituthename/" target="true" style={{ marginRight: '11px' }}><InstagramIcon style={{ color: 'black', fontSize: '28px' }} /></a>
                                 <a href="ritu72052@gmail.com" target="true" style={{ marginRight: '11px' }}><Email style={{ color: 'black', fontSize: '28px' }} /></a>
