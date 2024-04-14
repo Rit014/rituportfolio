@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rituportfolio/static/css/main.0822bba4.css",
+    "main.js": "/rituportfolio/static/js/main.6e81902a.js",
+    "static/media/Documnet Type_Ritu Panchal CV.pdf": "/rituportfolio/static/media/Documnet Type_Ritu Panchal CV.b99eb6c61da6efa1ca81.pdf",
+    "static/media/images.jfif": "/rituportfolio/static/media/images.b6540b9ec0ec09307163.jfif",
+    "index.html": "/rituportfolio/index.html",
+    "main.0822bba4.css.map": "/rituportfolio/static/css/main.0822bba4.css.map",
+    "main.6e81902a.js.map": "/rituportfolio/static/js/main.6e81902a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0822bba4.css",
+    "static/js/main.6e81902a.js"
+  ]
+}
