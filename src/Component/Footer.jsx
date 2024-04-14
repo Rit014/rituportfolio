@@ -15,10 +15,10 @@ const Footer = () => {
                     <Button variant="contained" className='contact_btn fw-bold bg-black text-white'>Let's Collaborate</Button>
                 </div>
                 <div className="card-footer text-body-secondary bg-black">
-                    <a href="https://www.linkedin.com/in/ritu-panchal-7a7273281/" style={{ marginRight: '11px' }}><LinkedInIcon style={{ color: 'white', fontSize: '28px' }} /></a>
-                    <a href="https://github.com/Rit014" style={{ marginRight: '11px' }}><GitHubIcon style={{ color: 'white', fontSize: '28px' }} /></a>
-                    <a href="https://www.instagram.com/rituthename/" style={{ marginRight: '11px' }}><InstagramIcon style={{ color: 'white', fontSize: '28px' }} /></a>
-                    <a href="ritu72052@gmail.com" style={{ marginRight: '11px' }}><Email style={{ color: 'white', fontSize: '28px' }} /></a>
+                    <a href="https://www.linkedin.com/in/ritu-panchal-7a7273281/" target="true" style={{ marginRight: '11px' }}><LinkedInIcon style={{ color: 'white', fontSize: '28px' }} /></a>
+                    <a href="https://github.com/Rit014" target="true" style={{ marginRight: '11px' }}><GitHubIcon style={{ color: 'white', fontSize: '28px' }} /></a>
+                    <a href="https://www.instagram.com/rituthename/" target="true" style={{ marginRight: '11px' }}><InstagramIcon style={{ color: 'white', fontSize: '28px' }} /></a>
+                    <a href="ritu72052@gmail.com" target="true" style={{ marginRight: '11px' }}><Email style={{ color: 'white', fontSize: '28px' }} /></a>
                 </div>
             </div>
         </>
