@@ -1,6 +1,6 @@
 import React from 'react';
 import { slider } from './Data';
-import Resume from "./Resume/Documnet Type_Ritu Panchal CV.pdf";
+import Resume from "./Resume/RITU'sResume.pdf";
 import './style.css';
 import Button from '@mui/material/Button';
 const About = () => {
@@ -15,9 +15,9 @@ const About = () => {
                         </div>
                         <div className="row sm:grid-cols-1 md:grid-cols-2 m-auto mt-3 mb-3 ">
                             <div className='col-lg-6 col-md-12 col-sm-12 px-5 fs-5 lh-2 pt-5  text-black'>
-                                Hello, My name is <span style={{ fontWeight: 'bold', color: 'orange' }}> Ritu Panchal </span>, nice to meet you. please take a look around<br />
-                                A goal-oriented <span>Entry Level Frontend Developer</span> with Knowledge of HTML, CSS, JavaScript,
-                                ReactJS.
+                                Hello, My name is <span style={{ fontWeight: 'bold', color: 'orange' }}> Ritu Panchal </span>, nice to meet you. please take a look around.<br />
+                                A goal-oriented <span>Entry Level Frontend Developer.</span>I have completed one month of internship from Afame Technologies.
+                                And during my internship I have experienced lots of things.
                                 I simpliy enjoy working on code and create attractive websites.
                                 <div className="d-flex justify-content-between mt-2">
                                     <a href={Resume} download>
@@ -28,7 +28,7 @@ const About = () => {
                                     </a>
                                 </div>
                             </div>
-                            <div className='col-lg-6 col-md-12 col-sm-12 mt-5 ms-lg-0 ms-md-4 ms-sm-auto  text-black' id="stats_about">
+                            <div className='col-lg-6 col-md-12 col-sm-12 mt-5 ms-lg-0 ms-md-4 ms-sm-auto text-black' id="stats_about">
                                 {slider.map((Val) => {
                                     const { text, width } = Val;
                                     return (

@@ -1,27 +1,31 @@
 import React from 'react';
 import Button from '@mui/material/Button';
-import { useRef } from 'react';
-import emailjs from '@emailjs/browser';
 
 const Contact = () => {
-    const form = useRef();
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+    const [result, setResult] = React.useState("");
 
-        emailjs
-            .sendForm('service_8521sgc', 'template_ip6byss', form.current, {
-                publicKey: 'iQg_cwU1iZ89CMLk3',
-            })
-            .then(
-                () => {
-                    console.log('SUCCESS!');
-                },
-                (error) => {
-                    console.log('FAILED...', error.text);
-                },
-            );
-        e.target.reset();
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+
+        formData.append("access_key", "bed41d3a-1ec6-48b4-9023-76005d1f38e4");
+
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+            setResult("Form Submitted Successfully");
+            event.target.reset();
+        } else {
+            console.log("Error", data);
+            setResult(data.message);
+        }
     };
 
     return (
@@ -40,10 +44,9 @@ const Contact = () => {
                         </div>
                         <div className="col">
                             <form className='w-50 m-auto text-center'
-                                ref={form}
-                                onSubmit={sendEmail}
+                                onSubmit={onSubmit}
                             >
-                                <input type="text" name='user_name' className="form-control form-control-lg fw-bold" placeholder="Name" />
+                                <input type="text" name='user_name' className="form-control form-control-lg fw-bold " placeholder="Name" />
                                 <input type="email" name='user_email' className="form-control mt-3 fw-bold" placeholder="Email" />
                                 <div className="mb-3 mt-3">
                                     <textarea className="form-control fw-bold" rows="5" id="comment" name="message" placeholder="Message"></textarea>
@@ -52,6 +55,7 @@ const Contact = () => {
                                 <div className='text-center mt-5 mb-5'>
                                     <Button type='submit' className='contact_btn fw-bold bg-warning text-black'>Contact Me</Button>
                                 </div>
+                                <span>{result}</span>
                             </form>
                         </div>
                     </div>

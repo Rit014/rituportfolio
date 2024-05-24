@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from './Images/Image-2.png';
 const Project = () => {
     return (
         <>
@@ -19,24 +20,16 @@ const Project = () => {
                                 <a href="https://rit014.github.io/edusity_project/" target="_blank" style={{textDecoration: 'none'}}>Project 1</a>
                             </div>
                             <div className='col text-center py-5 project-box'>
-                                <a href="https://rit014.github.io/react_redux_project/" target="_blank" style={{textDecoration: 'none'}}>Project 2</a>
+                                <a href="https://rit014.github.io/ecommerce-website/" target="_blank" style={{textDecoration: 'none'}}>Project 2</a>
                             </div>
                             <div className='col text-center py-5 project-box'>
-                                <a href="https://rit014.github.io/movie_search/" target="_blank" style={{textDecoration: 'none'}}>Project 3</a>
+                                <a href="https://rit014.github.io/weather_app/" target="_blank" style={{textDecoration: 'none'}}>Project 3</a>
                             </div>
                         </div>
                         <div className='row grid gap-2 sm:grid-cols-2 md:grid-cols-3 m-auto mt-3 mb-3'>
-                            <div className='col text-center py-5 project-box'>
-                                <a href="https://rit014.github.io/flipped_book/" target="_blank" style={{textDecoration: 'none'}}>Project 4</a>
+                            <div className='col-4 text-center py-5 project-box'>
+                                <a href="https://rit014.github.io/quizproject/" target="_blank" style={{textDecoration: 'none'}}>Project 4</a>
                             </div>
-                            <div className='col text-center py-5 project-box'>
-                                <a href="https://rit014.github.io/weather_app/" target="_blank" style={{textDecoration: 'none'}}>Project 5</a>
-                            </div>
-                            <div className='col text-center py-5 project-box'>
-                                <a href="https://rit014.github.io/quizproject/" target="_blank" style={{textDecoration: 'none'}}>Project 6</a>
-                            </div>
-                            {/*https://rit014.github.io/simple_quiz/ */}
-                            {/*  https://rit014.github.io/flipped_book/*/}
                         </div>
                     </div>
                 </div>

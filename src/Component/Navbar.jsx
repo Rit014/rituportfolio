@@ -24,7 +24,7 @@ const Navbar = () => {
                 <div className="container">
                     <a className="navbar-brand ms-3" href="https://www.linkedin.com/in/ritu-panchal-7a7273281/">
                         <h5 className='contact_btn text-warning' style={{textShadow: '2px 7px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255, 255, 255, 0.1)' }}>
-                            TECh_WA
+                            mYpOrtFolio
                         </h5>
                     </a>
                     <button className="navbar-toggler text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" onClick={handleNavCollapse}>
