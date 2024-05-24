@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/rituportfolio/static/css/main.0822bba4.css",
-    "main.js": "/rituportfolio/static/js/main.0aca3b59.js",
-    "static/media/Documnet Type_Ritu Panchal CV.pdf": "/rituportfolio/static/media/Documnet Type_Ritu Panchal CV.b99eb6c61da6efa1ca81.pdf",
+    "main.js": "/rituportfolio/static/js/main.80c04e78.js",
+    "static/media/Image-2.png": "/rituportfolio/static/media/Image-2.4322f834415d974b8d85.png",
+    "static/media/RITU'sResume.pdf": "/rituportfolio/static/media/RITU'sResume.f938b1062c8692cc9432.pdf",
     "static/media/images.jfif": "/rituportfolio/static/media/images.b6540b9ec0ec09307163.jfif",
     "index.html": "/rituportfolio/index.html",
     "main.0822bba4.css.map": "/rituportfolio/static/css/main.0822bba4.css.map",
-    "main.0aca3b59.js.map": "/rituportfolio/static/js/main.0aca3b59.js.map"
+    "main.80c04e78.js.map": "/rituportfolio/static/js/main.80c04e78.js.map"
   },
   "entrypoints": [
     "static/css/main.0822bba4.css",
-    "static/js/main.0aca3b59.js"
+    "static/js/main.80c04e78.js"
   ]
 }
